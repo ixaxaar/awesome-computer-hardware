@@ -1670,10 +1670,64 @@
 ## Specialized Computing
 
 ### AI/ML Accelerators
-- **Google TPU** - [Wikipedia](https://en.wikipedia.org/wiki/Tensor_Processing_Unit) | [Google Cloud TPU](https://cloud.google.com/tpu)
+- **Google TPU (Tensor Processing Unit)** - [Wikipedia](https://en.wikipedia.org/wiki/Tensor_Processing_Unit) | [Google Cloud TPU](https://cloud.google.com/tpu)
+  - **TPU v4** - Current generation TPU pods
+  - **TPU v5e** - Efficient training and inference
+  - **TPU v5p** - High-performance AI training
+- **AWS Trainium** - [Wikipedia](https://en.wikipedia.org/wiki/AWS_Trainium) | [AWS Trainium](https://aws.amazon.com/machine-learning/trainium/) - Custom AI training chip
+  - **Trn1 Instances** - Trainium-powered EC2 instances
+- **AWS Inferentia** - [Wikipedia](https://en.wikipedia.org/wiki/AWS_Inferentia) | [AWS Inferentia](https://aws.amazon.com/machine-learning/inferentia/) - AI inference chip
+  - **Inferentia1** - First generation inference
+  - **Inferentia2** - Second generation inference
+- **Tesla Dojo** - [Wikipedia](https://en.wikipedia.org/wiki/Tesla_Dojo) - Tesla's AI training supercomputer
+  - **Dojo D1 Chip** - Custom training ASIC (7nm, 362 teraFLOPS)
+  - **Training Tiles** - 25 D1 chips per tile
+  - **ExaPod** - Complete Dojo system
+- **Groq LPU (Language Processing Unit)** - [Groq](https://groq.com/) - Deterministic AI inference processor
+  - **Groq GroqChip** - Temporal computing architecture
 - **Intel Habana** - [Wikipedia](https://en.wikipedia.org/wiki/Habana_Labs) | [Intel Habana](https://habana.ai/)
-- **Graphcore IPU** - [Wikipedia](https://en.wikipedia.org/wiki/Graphcore) | [Graphcore IPU](https://www.graphcore.ai/products/ipu)
-- **Cerebras WSE** - [Wikipedia](https://en.wikipedia.org/wiki/Cerebras) | [Cerebras Systems](https://www.cerebras.net/)
+  - **Gaudi2** - AI training accelerator
+  - **Gaudi3** - Next-gen training (2024)
+  - **Goya** - AI inference processor
+- **Graphcore IPU (Intelligence Processing Unit)** - [Wikipedia](https://en.wikipedia.org/wiki/Graphcore) | [Graphcore](https://www.graphcore.ai/)
+  - **Bow IPU** - Latest generation (Bow-2000)
+  - **IPU-M2000** - Machine intelligence accelerator
+  - **IPU-POD** - Scalable AI infrastructure
+- **Cerebras WSE (Wafer-Scale Engine)** - [Wikipedia](https://en.wikipedia.org/wiki/Cerebras) | [Cerebras](https://www.cerebras.net/)
+  - **WSE-3** - Third generation (4 trillion transistors)
+  - **CS-3** - Complete AI system with WSE-3
+  - **CS-2** - Previous generation system
+- **SambaNova DataScale** - [SambaNova](https://sambanova.ai/) - Reconfigurable dataflow architecture
+  - **SN40L** - DataScale SN40L chip
+  - **DataScale SN30** - AI platform
+- **Tenstorrent** - [Tenstorrent](https://www.tenstorrent.com/) - RISC-V based AI processors
+  - **Grayskull** - AI training and inference
+  - **Wormhole** - Next-gen AI chip
+  - **Blackhole** - Future architecture
+- **Mythic AI** - [Mythic](https://www.mythic-ai.com/) - Analog matrix processor
+  - **Mythic M1076** - Analog AI compute chip
+- **Esperanto ET-SoC** - [Esperanto](https://www.esperanto.ai/) - RISC-V AI chip (1000+ cores)
+  - **ET-SoC-1** - ML inference processor
+- **Biren BR100** - [Biren Technology](https://www.birentech.com/) - Chinese AI GPU (77 billion transistors)
+- **Huawei Ascend** - [Wikipedia](https://en.wikipedia.org/wiki/Ascend_(processor)) - Huawei AI processors
+  - **Ascend 910B** - AI training chip (7nm)
+  - **Ascend 310** - AI inference chip
+  - **Ascend 910** - Previous gen training
+- **Alibaba Hanguang 800** - NPU for AI inference (12nm)
+- **Baidu Kunlun** - [Wikipedia](https://en.wikipedia.org/wiki/Baidu#Artificial_intelligence) - Baidu AI chip
+  - **Kunlun 2** - Second generation AI chip
+- **Apple Neural Engine** - [Wikipedia](https://en.wikipedia.org/wiki/Apple_Neural_Engine) - Integrated in Apple Silicon
+  - **16-core Neural Engine** - M3/A17 Pro generation
+- **Qualcomm AI Engine** - NPU in Snapdragon SoCs
+  - **Hexagon NPU** - Qualcomm's AI accelerator
+- **MediaTek APU (AI Processing Unit)** - AI accelerators in Dimensity SoCs
+  - **APU 690** - Latest generation AI unit
+- **Samsung NPU** - Neural Processing Unit in Exynos SoCs
+- **Moffett AI** - [Moffett AI](https://www.moffett.ai/) - AI inference chips (Antoum series)
+- **EdgeCortix** - [EdgeCortix](https://www.edgecortix.com/) - MERA AI accelerators
+- **Cambricon** - [Wikipedia](https://en.wikipedia.org/wiki/Cambricon) - Chinese AI chip company
+  - **MLU370** - AI inference accelerator
+  - **MLU290** - AI training chip
 
 ### FPGA Technologies
 - **Xilinx (AMD) FPGAs** - [Wikipedia](https://en.wikipedia.org/wiki/Xilinx) | [AMD Xilinx](https://www.xilinx.com/products/silicon-devices/fpga.html)
